@@ -1,0 +1,2 @@
+github "openid/AppAuth-iOS" ~> 0.91.0
+github "atljeremy/gtm-session-fetcher" ~> 1.1.13
