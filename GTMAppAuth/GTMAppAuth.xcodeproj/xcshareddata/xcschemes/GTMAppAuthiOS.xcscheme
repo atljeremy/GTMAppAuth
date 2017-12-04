@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "19DF50331FD45DF1004589A7"
                BuildableName = "GTMAppAuth.framework"
-               BlueprintName = "GTMAppAuth"
+               BlueprintName = "GTMAppAuthiOS"
                ReferencedContainer = "container:GTMAppAuth.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,7 +45,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "19DF50331FD45DF1004589A7"
             BuildableName = "GTMAppAuth.framework"
-            BlueprintName = "GTMAppAuth"
+            BlueprintName = "GTMAppAuthiOS"
             ReferencedContainer = "container:GTMAppAuth.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -68,7 +68,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "19DF50331FD45DF1004589A7"
             BuildableName = "GTMAppAuth.framework"
-            BlueprintName = "GTMAppAuth"
+            BlueprintName = "GTMAppAuthiOS"
             ReferencedContainer = "container:GTMAppAuth.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -86,7 +86,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "19DF50331FD45DF1004589A7"
             BuildableName = "GTMAppAuth.framework"
-            BlueprintName = "GTMAppAuth"
+            BlueprintName = "GTMAppAuthiOS"
             ReferencedContainer = "container:GTMAppAuth.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
