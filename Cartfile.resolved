@@ -1,2 +1,2 @@
-github "atljeremy/gtm-session-fetcher" "1.1.13"
+github "atljeremy/gtm-session-fetcher" "1.1.15"
 github "openid/AppAuth-iOS" "0.91.0"

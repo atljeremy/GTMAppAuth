@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19D6E0B41FDC896900CF4653 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D6E0B31FDC896900CF4653 /* GTMSessionFetcher.framework */; };
 		19DF503E1FD45DF1004589A7 /* GTMAppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF50341FD45DF1004589A7 /* GTMAppAuth.framework */; };
 		19DF50431FD45DF1004589A7 /* GTMAppAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DF50421FD45DF1004589A7 /* GTMAppAuthTests.swift */; };
 		19DF50781FD45EFD004589A7 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF50771FD45EE2004589A7 /* SafariServices.framework */; };
@@ -56,13 +57,9 @@
 		19DF52821FD4E381004589A7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF52811FD4E381004589A7 /* Security.framework */; };
 		19DF52841FD4E386004589A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF52831FD4E386004589A7 /* SystemConfiguration.framework */; };
 		19DF528A1FD4E400004589A7 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF52871FD4E3FF004589A7 /* GTMSessionFetcher.framework */; };
-		19DF528B1FD4E400004589A7 /* GTMSessionFetcherOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF52881FD4E400004589A7 /* GTMSessionFetcherOSX.framework */; };
 		19DF528C1FD4E400004589A7 /* AppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF52891FD4E400004589A7 /* AppAuth.framework */; };
-		19DF52911FD4E426004589A7 /* GTMSessionFetcherwatchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF528E1FD4E426004589A7 /* GTMSessionFetcherwatchOS.framework */; };
 		19DF52921FD4E426004589A7 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF528F1FD4E426004589A7 /* GTMSessionFetcher.framework */; };
 		19DF52931FD4E426004589A7 /* AppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF52901FD4E426004589A7 /* AppAuth.framework */; };
-		19DF52971FD4E553004589A7 /* GTMSessionFetcherIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF52941FD4E553004589A7 /* GTMSessionFetcherIOS.framework */; };
-		19DF52981FD4E553004589A7 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF52951FD4E553004589A7 /* GTMSessionFetcher.framework */; };
 		19DF52991FD4E553004589A7 /* AppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF52961FD4E553004589A7 /* AppAuth.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +88,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19D6E0B31FDC896900CF4653 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = ../../Carthage/Build/iOS/GTMSessionFetcher.framework; sourceTree = "<group>"; };
 		19DF50341FD45DF1004589A7 /* GTMAppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMAppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DF50381FD45DF1004589A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19DF503D1FD45DF1004589A7 /* GTMAppAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTMAppAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,13 +131,9 @@
 		19DF52811FD4E381004589A7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS11.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		19DF52831FD4E386004589A7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS11.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		19DF52871FD4E3FF004589A7 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = ../../Carthage/Build/Mac/GTMSessionFetcher.framework; sourceTree = "<group>"; };
-		19DF52881FD4E400004589A7 /* GTMSessionFetcherOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcherOSX.framework; path = ../../Carthage/Build/Mac/GTMSessionFetcherOSX.framework; sourceTree = "<group>"; };
 		19DF52891FD4E400004589A7 /* AppAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppAuth.framework; path = ../../Carthage/Build/Mac/AppAuth.framework; sourceTree = "<group>"; };
-		19DF528E1FD4E426004589A7 /* GTMSessionFetcherwatchOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcherwatchOS.framework; path = ../../Carthage/Build/watchOS/GTMSessionFetcherwatchOS.framework; sourceTree = "<group>"; };
 		19DF528F1FD4E426004589A7 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = ../../Carthage/Build/watchOS/GTMSessionFetcher.framework; sourceTree = "<group>"; };
 		19DF52901FD4E426004589A7 /* AppAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppAuth.framework; path = ../../Carthage/Build/watchOS/AppAuth.framework; sourceTree = "<group>"; };
-		19DF52941FD4E553004589A7 /* GTMSessionFetcherIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcherIOS.framework; path = ../../Carthage/Build/iOS/GTMSessionFetcherIOS.framework; sourceTree = "<group>"; };
-		19DF52951FD4E553004589A7 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = ../../Carthage/Build/iOS/GTMSessionFetcher.framework; sourceTree = "<group>"; };
 		19DF52961FD4E553004589A7 /* AppAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppAuth.framework; path = ../../Carthage/Build/iOS/AppAuth.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,9 +145,8 @@
 				19DF507C1FD45F93004589A7 /* SystemConfiguration.framework in Frameworks */,
 				19DF507A1FD45F86004589A7 /* Security.framework in Frameworks */,
 				19DF52991FD4E553004589A7 /* AppAuth.framework in Frameworks */,
-				19DF52971FD4E553004589A7 /* GTMSessionFetcherIOS.framework in Frameworks */,
 				19DF50781FD45EFD004589A7 /* SafariServices.framework in Frameworks */,
-				19DF52981FD4E553004589A7 /* GTMSessionFetcher.framework in Frameworks */,
+				19D6E0B41FDC896900CF4653 /* GTMSessionFetcher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +164,6 @@
 			files = (
 				19DF527E1FD4E315004589A7 /* Security.framework in Frameworks */,
 				19DF528C1FD4E400004589A7 /* AppAuth.framework in Frameworks */,
-				19DF528B1FD4E400004589A7 /* GTMSessionFetcherOSX.framework in Frameworks */,
 				19DF528A1FD4E400004589A7 /* GTMSessionFetcher.framework in Frameworks */,
 				19DF527C1FD4E30E004589A7 /* SystemConfiguration.framework in Frameworks */,
 			);
@@ -191,7 +183,6 @@
 			files = (
 				19DF52921FD4E426004589A7 /* GTMSessionFetcher.framework in Frameworks */,
 				19DF52931FD4E426004589A7 /* AppAuth.framework in Frameworks */,
-				19DF52911FD4E426004589A7 /* GTMSessionFetcherwatchOS.framework in Frameworks */,
 				19DF52841FD4E386004589A7 /* SystemConfiguration.framework in Frameworks */,
 				19DF52821FD4E381004589A7 /* Security.framework in Frameworks */,
 			);
@@ -342,9 +333,8 @@
 		19DF52851FD4E3BB004589A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				19D6E0B31FDC896900CF4653 /* GTMSessionFetcher.framework */,
 				19DF52961FD4E553004589A7 /* AppAuth.framework */,
-				19DF52951FD4E553004589A7 /* GTMSessionFetcher.framework */,
-				19DF52941FD4E553004589A7 /* GTMSessionFetcherIOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -354,7 +344,6 @@
 			children = (
 				19DF52891FD4E400004589A7 /* AppAuth.framework */,
 				19DF52871FD4E3FF004589A7 /* GTMSessionFetcher.framework */,
-				19DF52881FD4E400004589A7 /* GTMSessionFetcherOSX.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -364,7 +353,6 @@
 			children = (
 				19DF52901FD4E426004589A7 /* AppAuth.framework */,
 				19DF528F1FD4E426004589A7 /* GTMSessionFetcher.framework */,
-				19DF528E1FD4E426004589A7 /* GTMSessionFetcherwatchOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
